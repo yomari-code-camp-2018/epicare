@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">EpiCare</string>
+
+    <string name="title_activity_login_page">LoginPage</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="username">Email</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="hello">Hello Again!</string>
+    <string name="no_acc_yet">No account yet? Create one</string>
+    <string name="or">OR</string>
+    <string name="info">Sign in using</string>
+    <string name="sign_up">Sign up</string>
+    <string name="terms">Terms</string>
+    <string name="create_account">Create Account</string>
+    <string name="what_email">What\'s your email?</string>
+    <string name="create_password">Create a new Password</string>
+    <string name="check">Do you have a liscence to practice medicine?</string>
+    <string name="enter_name">Please Enter Your Name</string>
+
+    <string name="tab1">Currently Reported</string>
+    <string name="tab2">Previously Seen</string>
+    <string name="tab3">Visualize Data</string>
+    <string name="drawer_open">Drawer Opened</string>
+    <string name="drawer_close">Drawer Closed</string>
+
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+
+    <string name="dev_profile">Developer Profile</string>
+    <string name="rate_us">Rate Us</string>
+
+    <string name="suggestions">Suggestions/Feedbacks</string>
+    <string name="more_options">More Options</string>
+
+    <string name="make_report">Make a Report</string>
+    <string name="enter_disease_name">Enter Disease Name</string>
+    <string name="select_no">Select Number of People Infected</string>
+    <string name="disclamair">Note:You can report only a maximum of 5</string>
+    <string name="report">Report</string>
+
+    <string name="enter_suggest">Enter Your Suggestions</string>
+    <string name="submit">Submit</string>
+
+    <string name="hint">Enter Your Message Here</string>
+    <string name="authenticating">Authenticating Please Wait....</string>
+    <string name="cancel">Cancel</string>
+    <string name="pick_image_intent_text">Pick A Image</string>
+
+    <string name="GPSTitle">GPS Required</string>
+    <string name="GPSDescription">Please Enable GPS</string>
+
+    <string name="Ok">OK</string>
+    <string name="add_des">Add Description</string>
+    <string name="location_info">Your Current Location:</string>
+    <string name="desc">Please Enter the following Information </string>
+
+
+    <string name="age_des">Age of the Person in Report</string>
+    <string name="gender_des">Gender of the Person in Report</string>
+    <string name="enter_docs">You can enter Documents to verify the report</string>
+
+    <array name="spinner_age">
+        <item>0-12</item>
+        <item>13-20</item>
+        <item>21-30</item>
+        <item>31-40</item>
+        <item>41-50</item>
+        <item>50+</item>
+    </array>
+    <array name="dis_names">
+        <item>influenza</item>
+        <item>ebola virus</item>
+        <item>cholera</item>
+        <item>hiv/aids</item>
+        <item>smallpox</item>
+        <item>yellow fever</item>
+        <item>measles</item>
+        <item>severe acute respiratory syndrome</item>
+        <item>viral hemorrhagic fever</item>
+        <item>poliomyelitis</item>
+        <item>emerging infectious</item>
+        <item>bubonic plague</item>
+        <item>swine influenza</item>
+        <item>chikungunya virus infection</item>
+        <item>typhus</item>
+        <item>pertussis</item>
+        <item>lassa fever</item>
+        <item>epidemic typhus</item>
+        <item>mumps</item>
+
+        <item>rift valley fever</item>
+        <item>hepatitis e</item>
+        <item>relapsing fever</item>
+        <item>pertussis</item>
+        <item>lassa fever</item>
+        <item>epidemic typhus</item>
+        <item>mumps</item>
+        <item>diphtheria</item>
+        <item>rift valley fever</item>
+        <item>hepatitis e</item>
+        <item>relapsing fever</item>
+        <item>pneumonic plague</item>
+        <item>foot-and-mouth disease</item>
+        <item>zika fever</item>
+        <item>dengue fever</item>
+        <item>diarrhoea</item>
+
+    </array>
+    <array name="spinner_gender">
+        <item>Male</item>
+        <item>Female</item>
+    </array>
+
+</resources>

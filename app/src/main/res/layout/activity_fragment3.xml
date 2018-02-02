@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sagar.sicklab.Fragment3">
+
+
+    <!--<android.support.v7.widget.RecyclerView-->
+    <!--android:id="@+id/my_recycler_view"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="65dp"-->
+    <!--android:scrollbars="vertical" />-->
+    <AutoCompleteTextView
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+
+        android:layout_above="@+id/barchart"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="60dp"
+        android:layout_marginStart="14dp"
+        android:background="@drawable/rounded_edittext"
+        android:ems="10"
+        android:inputType="textAutoComplete"
+        android:paddingEnd="5dp"
+        android:paddingStart="5dp" />
+
+
+    <org.eazegraph.lib.charts.BarChart xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/barchart"
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="131dp"
+        android:elevation="50dp"
+        android:padding="10dp"
+        app:egBarWidth="20dp"
+        app:egFixedBarWidth="true"
+        app:egLegendHeight="40dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText"
+        android:layout_marginStart="23dp"
+        android:layout_toEndOf="@+id/editText"
+        android:background="@color/white"
+        android:elevation="50dp"
+        android:text="SEARCH"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/barchart"
+        android:layout_alignStart="@+id/editText"
+        android:paddingBottom="5dp"
+        android:layout_marginEnd="10dp"
+        android:paddingTop="5dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+         />
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+    <!--android:id="@+id/floatingActionButton"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_alignParentEnd="true"-->
+    <!--android:layout_marginBottom="23dp"-->
+    <!--android:layout_marginEnd="38dp"-->
+    <!--android:clickable="true"-->
+    <!--android:src="@drawable/plus"-->
+    <!--tools:layout_editor_absoluteX="306dp"-->
+    <!--tools:layout_editor_absoluteY="485dp" />-->
+
+</RelativeLayout>
+

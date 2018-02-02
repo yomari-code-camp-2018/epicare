@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="primary_text">#212121</color>
+<color name="progress_bar">#ec076e</color>
+
+    <color name="white">#FFF</color>
+    <color name="viewSplit">#dddddd</color>
+    <color name="black">#000000</color>
+    <color name="yellow">#e7a011</color>
+    <color name="signUp">#035eb9</color>
+
+    <color name="green">#0cf427</color>
+    <color name="red">#f50707</color>
+
+    <color name="black_overlay">#66000000</color>
+
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#293397</color>
+    <color name="bg_screen2">#20d2bb</color>
+    <color name="bg_screen3">#3395ff</color>
+    <color name="bg_screen4">#ca2d5c</color>
+
+    <color name="bg_list">#dddddd</color>
+</resources>
